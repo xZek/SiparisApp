@@ -1,0 +1,20 @@
+c:\users\android-ap\documents\visual studio 2012\Projects\Sipariş Takip\Sipariş Takip\bin\Debug\Sipariş Takip.exe.config
+C:\Users\Android-AP\documents\visual studio 2012\Projects\Sipariş Takip\Sipariş Takip\bin\Debug\Sipariş Takip.exe
+C:\Users\Android-AP\documents\visual studio 2012\Projects\Sipariş Takip\Sipariş Takip\bin\Debug\Sipariş Takip.pdb
+C:\Users\Android-AP\documents\visual studio 2012\Projects\Sipariş Takip\Sipariş Takip\obj\Debug\Sipariş Takip.csprojResolveAssemblyReference.cache
+C:\Users\Android-AP\documents\visual studio 2012\Projects\Sipariş Takip\Sipariş Takip\obj\Debug\Sipariş_Takip.Properties.Resources.resources
+C:\Users\Android-AP\documents\visual studio 2012\Projects\Sipariş Takip\Sipariş Takip\obj\Debug\Sipariş Takip.csproj.GenerateResource.Cache
+C:\Users\Android-AP\documents\visual studio 2012\Projects\Sipariş Takip\Sipariş Takip\obj\Debug\Sipariş Takip.exe
+C:\Users\Android-AP\documents\visual studio 2012\Projects\Sipariş Takip\Sipariş Takip\obj\Debug\Sipariş Takip.pdb
+C:\Users\Android-AP\documents\visual studio 2012\Projects\Sipariş Takip\Sipariş Takip\obj\Debug\Sipariş_Takip.Musteri_Giris.resources
+C:\Users\Android-AP\Documents\Visual Studio 2012\Projects\Sipariş Takip\Sipariş Takip\obj\Debug\Sipariş_Takip.Yetkili_Giris.resources
+C:\Users\Android-AP\documents\visual studio 2012\Projects\Sipariş Takip\Sipariş Takip\bin\Debug\MySql.Data.dll
+C:\Users\Android-AP\documents\visual studio 2012\Projects\Sipariş Takip\Sipariş Takip\obj\Debug\Sipariş_Takip.Musteri_Panel.resources
+C:\Users\Android-AP\documents\visual studio 2012\Projects\Sipariş Takip\Sipariş Takip\obj\Debug\Sipariş_Takip.Ticket_Form.resources
+C:\Users\Android-AP\documents\visual studio 2012\Projects\Sipariş Takip\Sipariş Takip\obj\Debug\Sipariş_Takip.Yetkili_Panel.resources
+C:\Users\Android-AP\documents\visual studio 2012\Projects\Sipariş Takip\Sipariş Takip\obj\Debug\Sipariş_Takip.Yetkili_Panel2.resources
+C:\Users\Android-AP\documents\visual studio 2012\Projects\Sipariş Takip\Sipariş Takip\obj\Debug\Sipariş_Takip.Yetkili_Panel3.resources
+C:\Users\Android-AP\Documents\Visual Studio 2012\Projects\Sipariş Takip\Sipariş Takip\obj\Debug\Sipariş_Takip.KayitOl.resources
+C:\Users\Android-AP\documents\visual studio 2012\Projects\Sipariş Takip\Sipariş Takip\obj\Debug\Sipariş_Takip.Kpanel.resources
+C:\Users\Android-AP\documents\visual studio 2012\Projects\Sipariş Takip\Sipariş Takip\obj\Debug\Sipariş_Takip.Kpanel_TicketForm.resources
+C:\Users\Android-AP\documents\visual studio 2012\Projects\Sipariş Takip\Sipariş Takip\obj\Debug\Sipariş_Takip.Ticket_FormEkle.resources
