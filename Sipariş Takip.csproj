@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F34951C3-E74B-4832-9458-CAB7ED5DE2FE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sipariş_Takip</RootNamespace>
+    <AssemblyName>Sipariş Takip</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon_GFd_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.15.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Desktop\Emulator\bin\Release\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="KayitOl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KayitOl.Designer.cs">
+      <DependentUpon>KayitOl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kpanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kpanel.Designer.cs">
+      <DependentUpon>Kpanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kpanel_TicketForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kpanel_TicketForm.Designer.cs">
+      <DependentUpon>Kpanel_TicketForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ticket_FormEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ticket_FormEkle.Designer.cs">
+      <DependentUpon>Ticket_FormEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yetkili_Panel2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yetkili_Panel2.Designer.cs">
+      <DependentUpon>Yetkili_Panel2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yetkili_Panel3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yetkili_Panel3.Designer.cs">
+      <DependentUpon>Yetkili_Panel3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Musteri_Giris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Musteri_Giris.Designer.cs">
+      <DependentUpon>Musteri_Giris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Musteri_Panel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Musteri_Panel.Designer.cs">
+      <DependentUpon>Musteri_Panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Ticket_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ticket_Form.Designer.cs">
+      <DependentUpon>Ticket_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yetkili_Giris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yetkili_Giris.Designer.cs">
+      <DependentUpon>Yetkili_Giris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yetkili_Panel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yetkili_Panel.Designer.cs">
+      <DependentUpon>Yetkili_Panel.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="KayitOl.resx">
+      <DependentUpon>KayitOl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kpanel.resx">
+      <DependentUpon>Kpanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kpanel_TicketForm.resx">
+      <DependentUpon>Kpanel_TicketForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ticket_FormEkle.resx">
+      <DependentUpon>Ticket_FormEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yetkili_Panel2.resx">
+      <DependentUpon>Yetkili_Panel2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yetkili_Panel3.resx">
+      <DependentUpon>Yetkili_Panel3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Musteri_Giris.resx">
+      <DependentUpon>Musteri_Giris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Musteri_Panel.resx">
+      <DependentUpon>Musteri_Panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Ticket_Form.resx">
+      <DependentUpon>Ticket_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yetkili_Giris.resx">
+      <DependentUpon>Yetkili_Giris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yetkili_Panel.resx">
+      <DependentUpon>Yetkili_Panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favicon_GFd_icon.ico" />
+    <Content Include="favicon_vZ9_icon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
